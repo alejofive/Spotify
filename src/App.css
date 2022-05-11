@@ -118,6 +118,7 @@ button {
   width: 17%;
   bottom: 0;
   top: 0;
+  z-index: 2;
 }
 
 .logo {
@@ -126,7 +127,15 @@ button {
   position: relative;
 }
 
-.logo {
+.logo h1 {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  line-height: 1.75rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: none;
   color: var(--white);
 }
 
@@ -148,7 +157,8 @@ button {
   color: #b3b3b3;
   margin-left: 10px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
+
 }
 
 .menu-item .activa {
@@ -176,6 +186,7 @@ button {
   color: #b3b3b3;
   font-size: 12px;
   font-weight: bold;
+
 }
 
 .box-header {
@@ -206,6 +217,8 @@ button {
   color: var(--white);
   margin-left: 40px;
   font-weight: bold;
+  letter-spacing: 1.76px;
+  text-transform: uppercase;
 }
 
 .spane-nav {
@@ -230,6 +243,9 @@ button {
   font-weight: bold;
   margin-right: 20px;
   text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.76px;
+  line-height: 18px;
 }
 
 .box-home {
@@ -292,7 +308,7 @@ button {
 }
 
 .box-text-card p {
-  color: #b3b3b3;
+  color: #6a6a6a;
   font-size: 16px;
   display: block;
   line-height: 20px;
@@ -315,6 +331,7 @@ button {
   height: 100%;
   opacity: .5;
   object-fit: cover;
+  position: relative;
 }
 
 .banner-text {
