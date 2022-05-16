@@ -4,7 +4,7 @@ import '../index.css';
 import NavBarLeft from '../components/NavBarLeft';
 import NavBarTop from '../components/NavBarTop';
 import Footer from '../components/Fooder';
-import HeaderPlaylist from '../components/HeaderPlaylist';
+import HeaderPlaylist from '../components/Playlist';
 
 
 

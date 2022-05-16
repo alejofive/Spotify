@@ -127,16 +127,8 @@ button {
   position: relative;
 }
 
-.logo h1 {
-  box-sizing: border-box;
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  line-height: 1.75rem;
-  margin-bottom: 0;
-  margin-top: 0;
-  text-transform: none;
-  color: var(--white);
+.logo img {
+  
 }
 
 .menu-home {
@@ -150,6 +142,7 @@ button {
 
 .menu-item {
   margin-bottom: 30px;
+  margin-top: 30px;
   color: #b3b3b3;
 }
 
@@ -158,6 +151,7 @@ button {
   margin-left: 10px;
   font-weight: bold;
   font-size: 1rem;
+  margin-bottom: 30px;
 
 }
 
@@ -475,6 +469,7 @@ button {
   display: none;
   background: var(--green);
   transition: all .5s;
+  color: var(--white);
 }
 
 
@@ -483,6 +478,7 @@ button {
   font-size: 1em;
   text-align: center;
   background: var(--green);
+
 }
 
 .footer {

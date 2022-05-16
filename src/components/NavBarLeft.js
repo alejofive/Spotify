@@ -1,4 +1,6 @@
-
+import {
+  Link,
+} from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faSearch, faBookmark, faSquarePlus, faHeart } from '@fortawesome/free-solid-svg-icons'
@@ -7,15 +9,14 @@ function NavBarLeft() {
   return (
     <div className='col-2 box-menu'>
       <div className='logo'>
-
-        <h1>Spotify</h1>
+        <img src="../img/logo.f48fb565509bf23854a8.png" alt="" />
       </div>
 
       <div className='menu-home'>
-        <div className='menu-item'>
+        <Link to='/' className='menu-item'>
           <FontAwesomeIcon icon={faHome} />
           <a className='activa' href="">Home</a>
-        </div>
+        </Link>
 
         <div className='menu-item'>
           <FontAwesomeIcon icon={faSearch} />
